@@ -1,0 +1,9 @@
+<h1>update page</h1>
+<select ng-model="post.categoryid">
+    <option ng-repeat="category in categories"value="{{category.id}}">{{category.name}}</option>
+</select>
+<input ng-model="post.title"></input>
+<div>
+<textarea ng-model="post.content"cols="30" rows="10"></textarea>
+</div>
+<button ng-click="updatePost()">Update</button>

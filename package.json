@@ -1,0 +1,26 @@
+{
+  "name": "full-stack-lab-p2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djenkins96/full-stack-lab-p2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djenkins96/full-stack-lab-p2/issues"
+  },
+  "homepage": "https://github.com/djenkins96/full-stack-lab-p2#readme"
+}

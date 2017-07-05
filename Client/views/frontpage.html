@@ -1,0 +1,9 @@
+<h1>Blog Posts</h1>
+<button ng-click='newPost()'>Compose</button>
+<div id="blog-list" ng-repeat="p in posts">
+    <h1>{{p.title}}</h1>
+    <p>{{p.content}} </p>
+    <h5>{{p.createdAt | date: 'medium'}}</h5>
+    <a ng-href="/posts/{{ p.id}}">Read</a>
+
+</div>

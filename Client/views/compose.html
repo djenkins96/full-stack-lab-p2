@@ -1,0 +1,15 @@
+<h1>compose page</h1>
+<select ng-model="user"> 
+    <option ng-repeat="user in users"value="{{ user.id }}">{{ user.firstname }}</option>
+</select>
+<div>
+    <select ng-model="category">
+        <option ng-repeat="category in categories"value="{{category.id}}">{{category.name}}</option>
+</div>
+<div>
+    <input placeholder="Title" ng-model="title"></input>
+</div>
+<div>
+    <textarea ng-model="content"></textarea>
+</div>
+<button ng-click="newPost()">Save</button>
